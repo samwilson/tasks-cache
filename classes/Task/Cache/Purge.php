@@ -15,7 +15,7 @@
  *
  * @author Matt Button <matthew@sigswitch.com>
  */
-class Minion_Task_Cache_Purge extends Minion_Task
+class Task_Cache_Purge extends Minion_Task
 {
 	/**
 	 * An array of config options that this task can accept
@@ -25,7 +25,7 @@ class Minion_Task_Cache_Purge extends Minion_Task
 	/**
 	 * Clears the cache
 	 */
-	public function execute(array $config)
+	public function _execute(array $config)
 	{
 		if (empty($config['cache']))
 		{
