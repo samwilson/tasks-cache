@@ -1,0 +1,15 @@
+{
+	"name": "kohana-minion/tasks-cache",
+	"description": "Cache tasks for the Kohana-Minion CLI framework.",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Matt Button",
+			"email": "matthew@sigswitch.com"
+		}
+	],
+	"require": {
+		"kohana/minion": "v3.3.1",
+		"kohana/cache": "v3.3.1"
+	}
+}
